@@ -1,0 +1,9 @@
+@import "./vars.scss"; // 样式变量
+@import "./uni-app-reset.scss"; // uni-app样式重置
+@import "./sg-flexbox.scss"; // 全局弹性盒类名
+@import "./global.scss"; // 全局类名（除去弹性盒类名）
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
